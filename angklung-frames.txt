@@ -1,10 +1,8 @@
 --------------------------------------------------------------------------------
 - Music for Pieces of Metal
-- Based on Music for Pieces of Wood by Steve Reich
--
-- Balinese Angklung version
-- for 9 musicians
-- copyright, 2015 - Pierre-Emmanuel Lévesque
+- balinese angklung version, for 9 musicians
+- copyright (c) 2015, Pierre-Emmanuel Lévesque
+- based on Music for Pieces of Wood by Steve Reich
 -
 - 0 kajar
 - 1 gangsa pemade - two low notes (1 ngumbang & 1 ngisep)
