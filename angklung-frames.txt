@@ -3,13 +3,14 @@
 - Based on Music for Pieces of Wood by Steve Reich
 -
 - Balinese Angklung version
+- for 9 musicians
 - copyright, 2015 - Pierre-Emmanuel Lévesque
 -
 - 0 kajar
-- 1 gangsa pemade ngumbang
-- 2 gangsa pemade ngisep
-- 3 gangsa kantil ngumbang
-- 4 gangsa kantil ngisep
+- 1 gangsa pemade (1 ngumbang & 1 ngisep)
+- 2 gangsa pemade (1 ngumbang & 1 ngisep)
+- 3 gangsa kantil (1 ngumbang & 1 ngisep)
+- 4 gangsa kantil (1 ngumbang & 1 ngisep)
 --------------------------------------------------------------------------------
 
 Intro
