@@ -7,10 +7,10 @@
 - copyright, 2015 - Pierre-Emmanuel Lévesque
 -
 - 0 kajar
-- 1 gangsa pemade (1 ngumbang & 1 ngisep)
-- 2 gangsa pemade (1 ngumbang & 1 ngisep)
-- 3 gangsa kantil (1 ngumbang & 1 ngisep)
-- 4 gangsa kantil (1 ngumbang & 1 ngisep)
+- 1 gangsa pemade - two low notes (1 ngumbang & 1 ngisep)
+- 2 gangsa pemade - two top notes (1 ngumbang & 1 ngisep)
+- 3 gangsa kantil - two low notes (1 ngumbang & 1 ngisep)
+- 4 gangsa kantil - two top notes (1 ngumbang & 1 ngisep)
 --------------------------------------------------------------------------------
 
 @ Intro
