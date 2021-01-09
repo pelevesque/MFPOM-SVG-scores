@@ -1,0 +1,3 @@
+// getting console args
+const myArgs = process.argv.slice(2)
+https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/
