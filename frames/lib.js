@@ -6,15 +6,14 @@ module.exports = {
     let frame = []
     const lines = file.split(NEWLINE)
     lines.forEach(line => {
-      if (
+      if ( // ignore non functional lines
         line.length > 0 &&
         line.charAt(0) !== '-' &&
         line.charAt(0) !== '@'
       ) {
         if (line.charAt(0) === '#') {
-          if (frame.length > 0) {
+          if (frame.length > 0) { // don't reset for first frame
             frames.push(frame)
-          } else {
             frame = []
           }
         } else {
