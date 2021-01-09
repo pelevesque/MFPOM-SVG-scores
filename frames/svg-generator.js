@@ -1,20 +1,14 @@
 const fs = require('fs')
 const NEWLINE = /\r?\n/
 
-fs.readFile('angklung.txt', 'utf8', function read(err, file) {
-  if (err) throw err
-  process(file)
-})
+const framesFile = fs.readFileSync('angklung-frames.txt', 'utf8')
+const colorsFile = fs.readFileSync('angklung-colors.txt', 'utf8')
 
-function process(file) {
-  const frames = extractFrames(file)
-  fs.readFile('angklung-colours.txt', 'utf8', function read(err, file) {
-    if (err) throw err
-    const colours = extractColours(file)
-    console.log(frames.length)
-    console.log(colours.length)
-  })
-}
+const frames = extractFrames(framesFile)
+const colors = extractColors(colorsFile)
+
+console.log(frames.length)
+console.log(colors.length)
 
 function extractFrames(file) {
   const frames = []
@@ -41,13 +35,13 @@ function extractFrames(file) {
   return frames
 }
 
-function extractColours(file) {
-  const colours = []
+function extractColors(file) {
+  const colors = []
   const lines = file.split(NEWLINE)
   lines.forEach(line => {
     if (line.charAt(0) === '#') {
-      colours.push(line.substr(1, 6))
+      colors.push(line.substr(1, 6))
     }
   })
-  return colours
+  return colors
 }
