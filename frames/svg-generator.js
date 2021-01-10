@@ -1,3 +1,7 @@
+// have a custom config for each piece?
+// have one config that includes colors and measurements together?
+// trim file lines so that we can use indentation if wanted
+
 const fs = require('fs')
 const lib = require('./lib')
 
