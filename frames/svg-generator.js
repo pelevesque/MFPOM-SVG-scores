@@ -10,8 +10,8 @@ const colors = lib.extractColors(colorsFile)
 // variables
 const cw = 1600 // canvas width
 const ch = 900  // canvas height
-const rw = 120  // rectangle width
-const rh = 60   // rectangle height
+const rw = 100  // rectangle width
+const rh = 50   // rectangle height
 const rsw = 2   // rectangle spacer width
 const rsh = 2   // rectangle spacer height
 
@@ -22,11 +22,11 @@ function renderFrameToSVG(frame) {
   // The pw can change, but not the pw
   // color system is wrong, it should work by line
   let y = ph
-  frame.forEach((block, j) => {
+  frame.forEach(block => {
     let x = pw
     for (let i = 0; i < block.length; i++) {
       if (block.charAt(i) !== '.') {
-        const c = colors[j]
+        const c = colors[block.charAt(i)]
         svg += `  <rect x="${x}" y="${y}" width="${rw}" height="${rh}" fill="#${c}" />\n`
       }
       x += rw + rsw

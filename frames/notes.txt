@@ -1,3 +1,10 @@
 // getting console args
 const myArgs = process.argv.slice(2)
 https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/
+
+// number of vertical blocks
+angklung  9
+gong      16
+selunding 11
+semar     15
+gender    11
