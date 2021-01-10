@@ -1,8 +1,8 @@
 const fs = require('fs')
 const lib = require('./lib')
 
-const framesFile = fs.readFileSync('angklung-frames.txt', 'utf8')
-const colorsFile = fs.readFileSync('angklung-colors.txt', 'utf8')
+const framesFile = fs.readFileSync('gong-kebyar-frames.txt', 'utf8')
+const colorsFile = fs.readFileSync('gong-kebyar-colors.txt', 'utf8')
 
 const frames = lib.extractFrames(framesFile)
 const colors = lib.extractColors(colorsFile)
@@ -10,8 +10,8 @@ const colors = lib.extractColors(colorsFile)
 // variables
 const cw = 1600 // canvas width
 const ch = 900  // canvas height
-const rw = 100  // rectangle width
-const rh = 50   // rectangle height
+const rw = 90  // rectangle width
+const rh = 40   // rectangle height
 const rsw = 2   // rectangle spacer width
 const rsh = 2   // rectangle spacer height
 
