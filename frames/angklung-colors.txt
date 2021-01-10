@@ -1,13 +1,13 @@
 --------------------------------------------------------------------------------
-- Colours for the balinese angklung version
+- Colors for the balinese angklung version
 --------------------------------------------------------------------------------
 
-#CD5C5C
-#F08080
-#FA8072
-#E9967A
-#FFA07A
-#FFBF00
-#6495ED
-#CCCCFF
-#9FE2BF
+#ffffff
+#ff0000
+#ff0000
+#00ff00
+#00ff00
+#0000ff
+#0000ff
+#ff00ff
+#ff00ff
