@@ -1,6 +1,7 @@
 // have a custom config for each piece?
 // have one config that includes colors and measurements together?
 // trim file lines so that we can use indentation if wanted
+// should gender be doubled, or should we be able to add doubling in config
 
 const fs = require('fs')
 const lib = require('./lib')
