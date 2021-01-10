@@ -1,5 +1,6 @@
 const NEWLINE = /\r?\n/
 
+// these functions have no side-effects
 module.exports = {
   extractFrames: function (file) {
     const frames = []
@@ -33,5 +34,21 @@ module.exports = {
       }
     })
     return colors
+  },
+  createSVG: function(body, width, height, backgroundColor) {
+    let svg = ''
+    svg += '<!DOCTYPE svg\n'
+    svg += '  PUBLIC "-//W3C//DTD SVG 1.1//EN"\n'
+    svg += '  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"\n'
+    svg += '>\n'
+    svg += '<svg\n'
+    svg += `  width="${width}"\n`
+    svg += `  height="${height}"\n`
+    svg += `  style="background-color:${backgroundColor}"\n`
+    svg += '  xmlns="http://www.w3.org/2000/svg"\n'
+    svg += '>\n'
+    svg += body
+    svg += '</svg>\n'
+    return svg
   }
 }

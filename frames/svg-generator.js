@@ -14,6 +14,7 @@ const colors = lib.extractColors(colorsFile)
 // variables (put these into a config file)
 const cw = 1600 // canvas width
 const ch = 900  // canvas height
+const cBackgroundColor = '#000000' // canvas background color
 const rw = 90  // rectangle width
 const rh = 40   // rectangle height
 const rsw = 2   // rectangle spacer width
@@ -41,17 +42,7 @@ function renderFrameToSVG(frame) {
   return svg
 }
 
-// move this to lib and make it a function without any side effects
-function createSVG(body) {
-  let svg = ''
-  svg += '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\n'
-  svg += `<svg width="${cw}" height="${ch}" style="background-color:#000000" xmlns="http://www.w3.org/2000/svg">\n`
-  svg += body
-  svg += '</svg>'
-  return svg
-}
-
-const svg = createSVG(renderFrameToSVG(frames[25]))
+const svg = lib.createSVG(renderFrameToSVG(frames[25]), cw, ch, cBackgroundColor)
 
 fs.writeFile('test.svg', svg, (err) => {
   if (err) throw err
