@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+- main config
+--------------------------------------------------------------------------------
+
+canvasWidth = 1600
+canvasHeight = 900
+canvasBackgroundColor = #000000
+blockWidth = 90
+blockHeight = 40
+blockHorizontalSpacer = 2
+blockVerticalSpacer = 2

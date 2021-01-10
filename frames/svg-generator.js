@@ -46,4 +46,4 @@ const svg = lib.createSVG(renderFrameToSVG(frames[25]), cw, ch, cBackgroundColor
 
 fs.writeFile('test.svg', svg, (err) => {
   if (err) throw err
-});
+})

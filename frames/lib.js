@@ -35,6 +35,20 @@ module.exports = {
     })
     return colors
   },
+  extractConfig: function (file) {
+    const config = {}
+    const lines = file.split(NEWLINE)
+    lines.forEach(line => {
+      if (
+        line.length > 0 &&
+        line.charAt(0) !== '-'
+      ) {
+        const parts = line.trim().split(' ')
+        config[parts[0]] = parts[parts.length - 1]
+      }
+    })
+    return config
+  },
   createSVG: function(body, width, height, backgroundColor) {
     let svg = ''
     svg += '<!DOCTYPE svg\n'
