@@ -4,11 +4,19 @@
 - copyright (c) 2015, Pierre-Emmanuel Lévesque
 - based on Music for Pieces of Wood by Steve Reich
 -
-- 0 kajar
-- x gangsa pemade - notes 1,2 (1 ngumbang & 1 ngisep)
-- 2 gangsa pemade - notes 3,4 (1 ngumbang & 1 ngisep)
-- 3 gangsa kantil - notes 1,2 (1 ngumbang & 1 ngisep)
-- 4 gangsa kantil - notes 3,4 (1 ngumbang & 1 ngisep)
+- symbols:
+-   voice 0 -> 0 (metronome)
+-   voice 1 -> x (ostinato)
+-   voice 2 -> [a-h], z = last
+-   voice 3 -> [1-8], 9 = last
+-   voice 4 -> [A-H], Z = last
+-
+- instruments:
+-   voice 0 -> 1 kajar
+-   voice 1 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 2 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 3,4
+-   voice 3 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 4 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 3,4
 --------------------------------------------------------------------------------
 
 @ Intro
