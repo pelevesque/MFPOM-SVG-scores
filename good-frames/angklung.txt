@@ -5,18 +5,20 @@
 - based on Music for Pieces of Wood by Steve Reich
 -
 - symbols:
--   voice 0 -> 0 (metronome)
--   voice 1 -> x (ostinato)
--   voice 2 -> [a-h], z = last
--   voice 3 -> [1-8], 9 = last
--   voice 4 -> [A-H], Z = last
+-   voice 1 -> 0 (metronome)
+-   voice 2 -> x (ostinato)
+-   voice 3 -> [a-h], z = last
+-   voice 4 -> [1-8], 9 = last
+-   voice 5 -> [A-H], Z = last
 -
 - instruments:
--   voice 0 -> 1 kajar
--   voice 1 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 1,2
--   voice 2 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 3,4
--   voice 3 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 1,2
--   voice 4 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 3,4
+-   voice 1 -> 1 kajar
+-   voice 2 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 3 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 3,4
+-   voice 4 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 5 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 3,4
+-
+- Note: Note numbers represent lowest to highest notes on the instrument.
 --------------------------------------------------------------------------------
 
 @ Intro
@@ -214,7 +216,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 ............
 ............
-.1....29..5.
+.1....92..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -225,7 +227,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .......Z....
 ............
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -236,7 +238,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .Z.....A....
 ............
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -247,7 +249,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .B.....A.Z..
 ............
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -258,7 +260,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .B.....A.C..
 ..Z.........
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -269,7 +271,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .B..Z..A.C..
 ..D.........
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -280,7 +282,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .B..E..A.C..
 ..D..Z......
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -291,7 +293,7 @@ x.x..x...x..
 0.0.0.0.0.0.
 .B..E..A.CZ.
 ..D..F......
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
@@ -302,18 +304,20 @@ x.x..x...x..
 0.0.0.0.0.0.
 ZB..E..A.CG.
 ..D..F......
-.1....28..5.
+.1....82..5.
 ...37...4..6
 .b.a..e.h..g
 ....d..f..c.
 x.x..x...x..
 .x..x..x..x.
 
+@ Section I - Tutti
+
 # 27
 0.0.0.0.0.0.
 HB..E..A.CG.
 ..D..F......
-28..5..1....
+82..5..1....
 ..4..6...37.
 e.h..g.b.a..
 .f..c.....d.
@@ -508,6 +512,8 @@ Z.....B.
 c.d.....
 .x...x..
 x..x..x.
+
+@ Section II - Tutti
 
 # 45
 0.0.0.0.
