@@ -5,20 +5,21 @@
 - based on Music for Pieces of Wood by Steve Reich
 -
 - symbols:
--   voice 1 -> 0 (metronome)
--   voice 2 -> x (ostinato)
--   voice 3 -> [a-h], z = last
--   voice 4 -> [1-8], 9 = last
--   voice 5 -> [A-H], Z = last
+-   voice 1 ⭢ 0 (metronome)
+-   voice 2 ⭢ x (ostinato)
+-   voice 3 ⭢ [a-h], z = last
+-   voice 4 ⭢ [1-8], 9 = last
+-   voice 5 ⭢ [A-H], Z = last
 -
 - instruments:
--   voice 1 -> 1 kajar
--   voice 2 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 1,2
--   voice 3 -> 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 3,4
--   voice 4 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 1,2
--   voice 5 -> 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 3,4
+-   voice 1 ⭢ 1 kajar
+-   voice 2 ⭢ 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 3 ⭢ 2 gangsa pemade (1 ngumbang & 1 ngisep), notes 3,4
+-   voice 4 ⭢ 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 1,2
+-   voice 5 ⭢ 2 gangsa kantil (1 ngumbang & 1 ngisep), notes 3,4
 -
-- Note: Note numbers represent lowest to highest notes on the instrument.
+- Notes:
+-   • Note numbers represent lowest to highest notes on the instrument.
 --------------------------------------------------------------------------------
 
 @ Intro
