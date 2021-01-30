@@ -1,0 +1,35 @@
+-- John's suggestions ----------------------------------------------------------
+
+Arp 2600
+The moog modular in Arturia mini V
+the Poly6
+minimoog
+MonoPoly
+
+-- Similar to Moog -------------------------------------------------------------
+
+https://www.careersinmusic.com/moog-vst/
+
+Arturia Mini V2
+Native Instruments Monark (simple and king?)
+u-he Diva
+IK Multimedia Minimod (simple)
+Synapse The Legend
+GForce Software Minimonsta
+
+For simplicity, consider the IK Minimod. For lack of distraction, the Monark is
+going to serve you well. For Minimoog with a little extra, the Mini V and
+Minimonsta give some enormous possibilities and if you want to get crazy then
+the Diva is ready to party. (Although you do have to consider only $299 will
+get you a Behringer Model D Minimoog clone in authentic hardware.)
+
+--------------
+
+IK Multimedia SampleMoog
+Steinberg Model E [Minimoog Model D]
+OBXD [Oberheim OB-X] (oberheim emulation)
+
+-- I have these ----------------------------------------------------------------
+
+Arp 2600
+VK-1 Viking
