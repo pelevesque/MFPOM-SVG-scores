@@ -20,9 +20,9 @@
 -
 - Notes:
 -   • Note numbers represent lowest to highest notes on the instrument.
--   • This piece can also be played without the doubling of the kantil.
--   • Voices 2 and 4 are played by the same player(s)
--     Voices 3 and 5 are played by the same player(s)
+-   • This piece can also be played without the kantil doublings.
+-   • Voices 2 and 4 are played by the same player(s).
+-     Voices 3 and 5 are played by the same player(s).
 --------------------------------------------------------------------------------
 
 @ Intro
